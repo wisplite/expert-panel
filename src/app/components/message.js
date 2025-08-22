@@ -16,8 +16,8 @@ export default function Message({content, sender}) {
     else {
         return (
             <div className="flex flex-col items-start w-full">
-                <h1 className="text-lg font-bold">{sender}</h1>
-                <p className="text-sm bg-neutral-800 text-white rounded-lg p-4">{content}</p>
+                <h1 className="text-lg font-bold">{content.split(":")[0]}</h1>
+                <p className="text-sm bg-neutral-800 text-white rounded-lg p-4">{content.split(":")[1].trim()}</p>
             </div>
         )
     }

@@ -1,0 +1,7 @@
+{
+    "models": [
+        "openai/gpt-4o-mini",
+        "openai/gpt-4o",
+        "openai/gpt-3.5-turbo"
+    ]
+}

@@ -1,0 +1,2 @@
+// Next.js env loader was broken and "couldn't resolve fs", even when using SSR, so we're just hardcoding the key here ://
+export const OPENROUTER_API_KEY = "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"
